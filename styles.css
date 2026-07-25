@@ -1,0 +1,51 @@
+.search-container { 
+text-align: center; 
+margin-top: 20px;
+padding: 5px;
+background-color:whitesmoke; 
+border: 1px solid cadetblue;
+} 
+#results-container { 
+margin-top: 20px; 
+text-align: center;
+background-color: cadetblue;
+border: 2px solid darkcyan;
+padding: 2px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+color: whitesmoke;
+} 
+h1, h2 {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:darkcyan;
+}
+#mensaje {
+    color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-color: darkblue;
+    padding: 10px;
+}
+#carrito {
+    background-color:aliceblue;
+    border: 1px solid darkcyan;
+    font-weight: bold;
+}
+h3 {
+    text-align: center;
+    color: midnightblue;
+}
+p {
+    text-align: center;
+}
+label {
+    font-weight: bold;
+}
+input, select, textarea {
+    border: 1px solid darkslategrey;
+
+}
+form {
+    background-color: azure;
+}
