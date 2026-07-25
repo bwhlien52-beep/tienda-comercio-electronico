@@ -28,5 +28,10 @@ function ValidarCliente() {
         alert('Por favor, completa todos los campos para el registro.');
         return false;
     }
+    if (!email.includes('@') || !email.includes('.')) {
+        alert('Ingrese un correo electrónico válido.');
+        return false;
+    }
+    
     return true;
 }
